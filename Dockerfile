@@ -12,6 +12,6 @@ RUN apk add --no-cache chromium \
 RUN yarn --frozen-lockfile && \
     yarn cache clean
 
-EXPOSE 3000
+EXPOSE 1200
 
 CMD [ "node", "index.js" ]
