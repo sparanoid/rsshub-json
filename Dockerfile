@@ -6,6 +6,9 @@ WORKDIR /app
 
 COPY . /app
 
+RUN apk add --no-cache chromium \
+    && rm -rf /var/cache/*
+
 RUN yarn --frozen-lockfile && \
     yarn cache clean
 
