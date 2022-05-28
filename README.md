@@ -11,12 +11,13 @@ Run with Docker:
 
 ```fish
 docker run --rm --init -p 1200:1200 \
-  -e "CACHE_EXPIRE=5" \
+  -e "CACHE_TYPE=memory" \
+  -e "CACHE_EXPIRE=3" \
+  -e "CACHE_CONTENT_EXPIRE=5" \
   sparanoid/rsshub-json:local
 ```
 
-All the [environment variables](https://docs.rsshub.app/en/install/#configuration-3) can be inherited from the original project
-
+All the [environment variables](https://docs.rsshub.app/en/install/#configuration-3) can be inherited from the original project.
 
 ## License
 
