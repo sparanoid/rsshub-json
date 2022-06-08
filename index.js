@@ -18,6 +18,11 @@ app.get('/', (req, res) => {
   });
 });
 
+// Avoid returning favicon.ico. Or RSSHub will parse it as JSON and return an error.
+app.get('/favicon.ico', (req, res) => {
+  res.sendStatus(204);
+});
+
 app.get('/*', (req, res, next) => {
   RSSHub.request(req.url)
     .then(data => {
