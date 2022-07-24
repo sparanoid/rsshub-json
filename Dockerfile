@@ -6,7 +6,7 @@ WORKDIR /app
 
 COPY . /app
 
-RUN apk add --no-cache chromium \
+RUN apk add --no-cache chromium curl \
     && rm -rf /var/cache/*
 
 RUN yarn --frozen-lockfile && \
