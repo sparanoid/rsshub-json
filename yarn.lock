@@ -3854,10 +3854,10 @@ puppeteer-extra@3.3.4:
     debug "^4.1.1"
     deepmerge "^4.2.2"
 
-puppeteer@17.1.1:
-  version "17.1.1"
-  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-17.1.1.tgz#e981b17e8edee72a7c7b676878040ce2ff1cc3d0"
-  integrity sha512-sOq3+q4UpKmAl/LxGvraMVe9GnhDkmQLZrRkFswpWp46Vz3dv79LylMwebo047/xIc9dlOi9VMrNN5yLafCpGg==
+puppeteer@17.1.3:
+  version "17.1.3"
+  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-17.1.3.tgz#2814cf221925e19c681c69aa97401a68b30240c9"
+  integrity sha512-tVtvNSOOqlq75rUgwLeDAEQoLIiBqmRg0/zedpI6fuqIocIkuxG23A7FIl1oVSkuSMMLgcOP5kVhNETmsmjvPw==
   dependencies:
     cross-fetch "3.1.5"
     debug "4.3.4"
@@ -4154,10 +4154,10 @@ rss-parser@3.12.0:
     entities "^2.0.3"
     xml2js "^0.4.19"
 
-rsshub@1.0.0-master.3531bf5:
-  version "1.0.0-master.3531bf5"
-  resolved "https://registry.yarnpkg.com/rsshub/-/rsshub-1.0.0-master.3531bf5.tgz#6d9e606219c28a56300bd5fc5631d09a4061af39"
-  integrity sha512-F0N3EvFIMPTzjObVr21zUJc5qYEvVt+5w7fAMd7saRatP6HJPs0plfEFWQTtFOqQ4QBUemoJpJBgrtpJw55WKg==
+rsshub@1.0.0-master.54296e1:
+  version "1.0.0-master.54296e1"
+  resolved "https://registry.yarnpkg.com/rsshub/-/rsshub-1.0.0-master.54296e1.tgz#745a4476433432b818ce17edd8885075c4a69a8a"
+  integrity sha512-7Cg66OUehfaANNQdImULxLGk88/gyGHAwlmO8K2apX3O+/9IN/HbrwCBlqsTjV+00kZA9dCx2eX+aBwD+hJB+w==
   dependencies:
     "@koa/router" "12.0.0"
     "@postlight/mercury-parser" "2.2.1"
@@ -4201,7 +4201,7 @@ rsshub@1.0.0-master.3531bf5:
     pidusage "3.0.0"
     plist "3.0.6"
     proxy-chain "2.0.7"
-    puppeteer "17.1.1"
+    puppeteer "17.1.3"
     puppeteer-extra "3.3.4"
     puppeteer-extra-plugin-stealth "2.11.1"
     query-string "7.1.1"
@@ -4218,7 +4218,7 @@ rsshub@1.0.0-master.3531bf5:
     tough-cookie "4.1.2"
     tunnel "0.0.6"
     twitter-api-v2 "1.12.5"
-    winston "3.8.1"
+    winston "3.8.2"
     xml2js "0.4.23"
 
 rusha@^0.8.13:
@@ -5084,11 +5084,12 @@ winston-transport@^4.5.0:
     readable-stream "^3.6.0"
     triple-beam "^1.3.0"
 
-winston@3.8.1:
-  version "3.8.1"
-  resolved "https://registry.yarnpkg.com/winston/-/winston-3.8.1.tgz#76f15b3478cde170b780234e0c4cf805c5a7fb57"
-  integrity sha512-r+6YAiCR4uI3N8eQNOg8k3P3PqwAm20cLKlzVD9E66Ch39+LZC+VH1UKf9JemQj2B3QoUHfKD7Poewn0Pr3Y1w==
+winston@3.8.2:
+  version "3.8.2"
+  resolved "https://registry.yarnpkg.com/winston/-/winston-3.8.2.tgz#56e16b34022eb4cff2638196d9646d7430fdad50"
+  integrity sha512-MsE1gRx1m5jdTTO9Ld/vND4krP2To+lgDoMEHGGa4HIlAUyXJtfc7CxQcGXVyz2IBpw5hbFkj2b/AtUdQwyRew==
   dependencies:
+    "@colors/colors" "1.5.0"
     "@dabh/diagnostics" "^2.0.2"
     async "^3.2.3"
     is-stream "^2.0.0"
