@@ -14,6 +14,6 @@
   "dependencies": {
     "express": "^4.18.1",
     "morgan": "^1.10.0",
-    "rsshub": "1.0.0-master.6251a2d"
+    "rsshub": "1.0.0-master.9994fac"
   }
 }
